@@ -9,16 +9,13 @@ function App() {
         
         <p>
           Hello! 
-          <p>
+          <h1>
             This is my project portfolio. 
-            It presents further details about the projects that I have worked on in the past.
-          </p>
+            It presents further details about some of the projects that I have worked on in the past.
+          </h1>
             
             { /*
-            Content idea:
-            Job Title     Client Industry     Duration     Project Summary
-
-            Design:
+            Original Design:
             https://codepen.io/aron-tw/pen/pLJqgE
             */
             }
@@ -27,58 +24,57 @@ function App() {
       </header>
 
       <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#81d8d0" }}>
        <h1 className="text-shadow">Project 1</h1>
     </div>
-    <div className="back">
-       <h2>Pharmaceutical Industry</h2>
-       <p>Systems Development and Operation</p>
+    <div className="back" style={{ background: "#81d8d0" }}>
+       <h2>Task: Systems Development and Operation</h2>
+       <p>For a client in the pharmaceutical industry</p>
     </div>
 </div>
 <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#fff68f" }}>
        <h1 className="text-shadow">Project 2</h1>
     </div>
-    <div className="back">
-       <h2>Energy Industry</h2>
-       <p>Cloud Foundation Design</p>
+    <div className="back" style={{ background: "#fff68f" }}>
+       <h2>Task: Cloud Foundation Design (GCP)</h2>
+       <p>For a client in the energy industry</p>
     </div>
 </div>
 <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#ffdab9" }}>
        <h1 className="text-shadow">Project 3</h1>
     </div>
-    <div className="back">
-       <h2>Aerospace Industry</h2>
-       <p>Project Lead and Software Developer</p>
+    <div className="back" style={{ background: "#ffdab9" }}>
+       <h2>Task: Solution Design & Software Development</h2>
+       <p>For a client in the aerospace industry</p>
     </div>
 </div>
 <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#ff7f50" }}>
        <h1 className="text-shadow">Project 4</h1>
     </div>
-    <div className="back">
-       <h2>Logistics Industry</h2>
-       <p>AI Method Evaluation and Prototyping</p>
+    <div className="back" style={{ background: "#ff7f50" }}>
+       <h2>Task: AI methods evaluation and prototyping</h2>
+       <p>For a client in the logistics industry</p>
     </div>
 </div>
-
 <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#333333" }}>
        <h1 className="text-shadow">Project 5</h1>
     </div>
-    <div className="back">
-       <h2>Banking Industry</h2>
-       <p>Consulting, Database Development</p>
+    <div className="back" style={{ background: "#333333" }}>
+       <h2>Task: Consulting, database development</h2>
+       <p>For a client in the banking industry</p>
     </div>
 </div>
 <div className="flip flip-vertical">
-    <div className="front">
+    <div className="front" style={{ background: "#ff80ed" }}>
        <h1>Project 6</h1>
     </div>
-    <div className="back">
-       <h2>Banking Industry</h2>
-       <p>Software Development</p>
+    <div className="back" style={{ background: "#ff80ed" }}>
+       <h2>Task: Database development</h2>
+       <p>For a client in the banking industry (yet another one)</p>
     </div>
 </div>
 

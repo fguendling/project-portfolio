@@ -28,11 +28,12 @@
 }
 
 footer {
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 1em;
   font-size: 0.75rem;
 }
 
-/* from codepen */
+/* from Codepen */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 * {
@@ -40,15 +41,13 @@ footer {
   font-weight: normal;
 }
 
-body {
-  padding: 1em;
-}
-
 h1 {
-  font-size: 2.2em;
+  font-size: 1.6em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
-/*looks like it is scss, not css*/
+/* It's scss*/
 .flip {
     position: relative;
     >.front,
@@ -97,7 +96,7 @@ h1 {
 .flip {
     position: relative;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 2em;
     margin-bottom: 1em;
     width: 400px;
     >.front,
