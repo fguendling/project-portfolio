@@ -4,11 +4,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        { /*
-        <img src="Octocat.png" className="App-logo" alt="logo" /> 
-        */ }
+        
+        <img src="profile-pic.png" className="App-logo" alt="logo" /> 
+        
         <p>
-          My Project Portfolio (goes here)
+          Hello! 
+          <hr>
+          </hr>
+          <p>This is my project portfolio. It presents further details about the projects that I have worked on in the past.</p>
+          <ul>
+            Content is coming soon.
+          </ul>
         </p>
       </header>
     </div>
