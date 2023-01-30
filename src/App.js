@@ -79,7 +79,7 @@ function App() {
 </div>
 
 <br></br>
-<footer>Developed by Felix Gündling in 2022</footer>
+<footer>© 2023 Felix Gündling</footer>
     </div>
   );
 }
