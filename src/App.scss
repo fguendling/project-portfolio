@@ -47,8 +47,9 @@ h1 {
   padding-right: 2.5em;
 }
 
-/* It's scss*/
+/* Note: It's scss syntax*/
 .flip {
+    user-select: none;
     position: relative;
     >.front,
     >.back {
