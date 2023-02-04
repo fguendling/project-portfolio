@@ -42,9 +42,12 @@ footer {
 }
 
 h1 {
-  font-size: 1.6em;
+  font-size: 2.3em;
   padding-left: 2.5em;
   padding-right: 2.5em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+  text-align: left;
 }
 
 /* Note: It's scss syntax*/
@@ -97,9 +100,10 @@ h1 {
 .flip {
     position: relative;
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
     margin-bottom: 1em;
-    width: 400px;
+    width: 350px;
     >.front,
     >.back {
       display: block;
