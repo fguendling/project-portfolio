@@ -13,14 +13,16 @@ function App() {
             </p>
          </header>
 
+         <div data-aos="zoom-in" data-aos-offset="300">
+
          <h1>
             What I'm currently interested in.
          </h1>
 
-         <div>
             <img src="word_cloud.svg" alt="Word Cloud" width="90%"></img>
          </div>
 
+         <div data-aos="zoom-in" data-aos-anchor="#project6">
          <h1>
             What I have done in the past.
          </h1>
@@ -77,12 +79,13 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ff80ed" }}>
-               <h2>Project 6</h2>
+               <h2 id="project6">Project 6</h2>
             </div>
             <div className="back" style={{ background: "#ff80ed" }}>
                <h2>Task: Database development</h2>
                <p>For a client in the banking industry (yet another one)</p>
             </div>
+         </div>
          </div>
 
          <br></br>
