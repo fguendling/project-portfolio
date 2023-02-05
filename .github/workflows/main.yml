@@ -1,0 +1,5 @@
+# Should run on every commit/push:
+  # npm run build
+  # firebase deploy --only hosting:felix-xyz
+
+
