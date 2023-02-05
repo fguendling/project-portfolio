@@ -35,6 +35,5 @@ const analytics = getAnalytics(app);
 
 // Initialize AOS (Animate on scroll library)
 AOS.init({
-  disable: 'mobile'
 });
 ;
