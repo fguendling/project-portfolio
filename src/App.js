@@ -34,7 +34,7 @@ function App() {
          }
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#81d8d0" }}>
-               <h2 className="text-shadow">Project 1</h2>
+               <h2 id="project1" className="text-shadow">Project 1</h2>
             </div>
             <div className="back" style={{ background: "#81d8d0" }}>
                <h2>Task: Systems Development and Operation</h2>
@@ -43,7 +43,7 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#fff68f" }}>
-               <h2 className="text-shadow">Project 2</h2>
+               <h2 id="project2" className="text-shadow">Project 2</h2>
             </div>
             <div className="back" style={{ background: "#fff68f" }}>
                <h2>Task: Cloud Foundation Design (GCP)</h2>
@@ -52,7 +52,7 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ffdab9" }}>
-               <h2 className="text-shadow">Project 3</h2>
+               <h2 id="project3" className="text-shadow">Project 3</h2>
             </div>
             <div className="back" style={{ background: "#ffdab9" }}>
                <h2>Task: Solution Design & Software Development</h2>
@@ -61,7 +61,7 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ff7f50" }}>
-               <h2 className="text-shadow">Project 4</h2>
+               <h2 id="project4" className="text-shadow">Project 4</h2>
             </div>
             <div className="back" style={{ background: "#ff7f50" }}>
                <h2>Task: AI methods evaluation and prototyping</h2>
@@ -70,7 +70,7 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#333333" }}>
-               <h2 className="text-shadow">Project 5</h2>
+               <h2 id="project5" className="text-shadow">Project 5</h2>
             </div>
             <div className="back" style={{ background: "#333333" }}>
                <h2>Task: Consulting, database development</h2>
@@ -79,7 +79,7 @@ function App() {
          </div>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ff80ed" }}>
-               <h2 id="project6">Project 6</h2>
+               <h2 id="project6" className="text-shadow">Project 6</h2>
             </div>
             <div className="back" style={{ background: "#ff80ed" }}>
                <h2>Task: Database development</h2>
