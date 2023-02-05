@@ -13,16 +13,16 @@ function App() {
             </p>
          </header>
 
-         <div data-aos="zoom-in" data-aos-offset="300">
+         <div data-aos="zoom-in" data-aos-offset="200">
 
          <h1>
             What I'm currently interested in.
          </h1>
+            <img id="word_cloud"src="word_cloud.svg" alt="Word Cloud" width="90%"></img>
 
-            <img src="word_cloud.svg" alt="Word Cloud" width="90%"></img>
          </div>
 
-         <div data-aos="zoom-in" data-aos-anchor="#project6">
+         <div data-aos="zoom-in" data-aos-offset="400">
          <h1>
             What I have done in the past.
          </h1>
