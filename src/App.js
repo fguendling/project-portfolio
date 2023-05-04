@@ -11,6 +11,23 @@ function App() {
             <p>
                Hello and welcome to my professional portfolio website!
             </p>
+            <br></br>
+
+            <div id="credentials">
+
+               <a href="https://www.linkedin.com/in/felix-g%C3%BCndling-4b143a1b5/">
+                  <img src="LinkedIn_logo_initials.png.webp" alt="logo" />
+               </a>
+
+               <a href="https://www.credly.com/users/felix-gundling.5266ff70">
+                  <img src="credly.png" alt="logo" />
+               </a>
+      
+               <a href="https://www.credential.net/profile/felixgndling630115/wallet">
+                  <img src="1650028743528.jfif" alt="logo" />
+               </a>
+            </div>
+
          </header>
 
          <div data-aos="zoom-in" data-aos-offset="200">
@@ -89,7 +106,7 @@ function App() {
          </div>
 
          <br></br>
-         <footer>© 2023 Felix Gündling. Contact me on <a href="https://www.linkedin.com/in/felix-g%C3%BCndling-4b143a1b5/"> LinkedIn</a>
+         <footer>© 2023 Felix Gündling
          </footer>
       </div>
    );
