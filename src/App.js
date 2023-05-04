@@ -42,10 +42,10 @@ function App() {
             </div>
          </div>
          <div className="flip flip-vertical">
-            <div className="front" style={{ background: "#fff68f" }}>
+            <div className="front" style={{ background: "#e4decd" }}>
                <h2 id="project2" className="text-shadow">Project 2</h2>
             </div>
-            <div className="back" style={{ background: "#fff68f" }}>
+            <div className="back" style={{ background: "#e4decd" }}>
                <h2>Task: Cloud Foundation Design (GCP)</h2>
                <p>For a client in the energy industry</p>
             </div>
@@ -60,10 +60,10 @@ function App() {
             </div>
          </div>
          <div className="flip flip-vertical">
-            <div className="front" style={{ background: "#ff7f50" }}>
+            <div className="front" style={{ background: "#7c677f" }}>
                <h2 id="project4" className="text-shadow">Project 4</h2>
             </div>
-            <div className="back" style={{ background: "#ff7f50" }}>
+            <div className="back" style={{ background: "#7c677f" }}>
                <h2>Task: AI methods evaluation and prototyping</h2>
                <p>For a client in the logistics industry</p>
             </div>
@@ -78,10 +78,10 @@ function App() {
             </div>
          </div>
          <div className="flip flip-vertical">
-            <div className="front" style={{ background: "#ff80ed" }}>
+            <div className="front" style={{ background: "#4b6777" }}>
                <h2 id="project6" className="text-shadow">Project 6</h2>
             </div>
-            <div className="back" style={{ background: "#ff80ed" }}>
+            <div className="back" style={{ background: "#4b6777" }}>
                <h2>Task: Database development</h2>
                <p>For a client in the banking industry (yet another one)</p>
             </div>
