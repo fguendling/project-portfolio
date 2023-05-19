@@ -19,6 +19,10 @@ function App() {
                   <img src="LinkedIn_logo_initials.png.webp" alt="logo" />
                </a>
 
+               <a href="https://github.com/fguendling">
+                  <img src="github-mark.png" alt="logo" />
+               </a>
+
                <a href="https://www.credly.com/users/felix-gundling.5266ff70">
                   <img src="credly.png" alt="logo" />
                </a>
