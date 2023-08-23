@@ -54,10 +54,10 @@ function App() {
       */
          }
          <div className="flip flip-vertical">
-            <div className="front" style={{ background: "#81d8d0" }}>
+            <div className="front" style={{ background: "#e6e6fa" }}>
                <h2 id="project7" className="text-shadow">Project 7</h2>
             </div>
-            <div className="back" style={{ background: "#81d8d0" }}>
+            <div className="back" style={{ background: "#e6e6fa" }}>
                <h2>Task: Kubernetes Platform Engineering</h2>
                <p>For a software vendor</p>
             </div>
