@@ -26,7 +26,7 @@ Also necessary when a new codespace is used.
 
 ### `firebase init hosting`
 
-Initialize Firebase hosting.
+Initialize Firebase hosting. Creates firebase.json which already available in the repository and in good shape. Should not be modified. Hence the command shall not be used. 
 
 ### `firebase deploy --only hosting:felix-xyz`
 

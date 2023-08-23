@@ -13,7 +13,4 @@ jobs:
           npm install firebase
           npm install -g firebase-tools
           npm run build
-          
-          # todo: find a way to authenticate here, like firebase login
-          firebase init hosting
           firebase deploy --only hosting:felix-xyz
