@@ -8,8 +8,9 @@ jobs:
       - name: build
         run: |
           sudo apt-get update
-          npm run build
+          npm install
           npm install firebase
+          npm run build
           firebase init hosting
           cat firebase.json
           firebase deploy --only hosting:felix-xyz
