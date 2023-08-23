@@ -1,5 +1,12 @@
-# Should run on every commit/push:
-  # npm run build
-  # firebase deploy --only hosting:felix-xyz
-
-
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+      - name: build
+        run: |
+          sudo apt-get update
+          npm run build
+          firebase deploy --only hosting:felix-xyz
