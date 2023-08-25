@@ -1,12 +1,12 @@
-import './App.scss';
+import './Home.scss';
 
-function App() {
+function Home() {
    return (
-      <div className="App">
+      <div className="Home">
 
-         <header className="App-header">
+         <header className="Home-header">
 
-            <img src="profile-pic.png" className="App-logo" alt="logo" />
+            <img src="profile-pic.png" className="Home-logo" alt="logo" />
 
             <p>
                Hello and welcome to my professional portfolio website!
@@ -125,4 +125,4 @@ function App() {
    );
 }
 
-export default App;
+export default Home;
