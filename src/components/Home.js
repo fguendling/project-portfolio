@@ -53,6 +53,7 @@ function Home() {
       https://codepen.io/aron-tw/pen/pLJqgE
       */
          }
+         <a href={`/details/7`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#e6e6fa" }}>
                <h2 id="project7" className="text-shadow">Project 7</h2>
@@ -62,6 +63,9 @@ function Home() {
                <p>For a software vendor</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/6`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#81d8d0" }}>
                <h2 id="project6" className="text-shadow">Project 6</h2>
@@ -71,6 +75,9 @@ function Home() {
                <p>For a client in the pharmaceutical industry</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/5`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#e4decd" }}>
                <h2 id="project5" className="text-shadow">Project 5</h2>
@@ -80,6 +87,9 @@ function Home() {
                <p>For a client in the energy industry</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/4`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ffdab9" }}>
                <h2 id="project4" className="text-shadow">Project 4</h2>
@@ -89,6 +99,9 @@ function Home() {
                <p>For a client in the aerospace industry</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/3`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#7c677f" }}>
                <h2 id="project3" className="text-shadow">Project 3</h2>
@@ -98,6 +111,9 @@ function Home() {
                <p>For a client in the logistics industry</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/2`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#333333" }}>
                <h2 id="project2" className="text-shadow">Project 2</h2>
@@ -107,6 +123,9 @@ function Home() {
                <p>For a client in the banking industry</p>
             </div>
          </div>
+         </a>
+
+         <a href={`/details/1`}>
          <div className="flip flip-vertical">
             <div className="front" style={{ background: "#4b6777" }}>
                <h2 id="project1" className="text-shadow">Project 1</h2>
@@ -116,6 +135,8 @@ function Home() {
                <p>For a client in the banking industry (yet another one)</p>
             </div>
          </div>
+         </a>
+
          </div>
 
          <br></br>
