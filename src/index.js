@@ -17,6 +17,8 @@ const router = createBrowserRouter([
   {
     path: "details/:ProjectId",
     element: <ProjectDetails />,
+    loader: async ({ params }) => {
+      return params.ProjectId;}
   },
 ]);
 
