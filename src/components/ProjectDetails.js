@@ -28,12 +28,12 @@ let PROJECTS = [
   },
   {
     id: 7,
-    content: "'Blub'",
+    content: "Blub",
   },
 ];
 
 export default function ProjectDetails() {
     let id = useLoaderData()
-    let project = PROJECTS.find((project) => project.id === id)
+    let project = PROJECTS.find((project) => project.id == id)
     return <div>Content is coming soon, these are just some placeholders: {project.content} </div>
     }
