@@ -33,7 +33,7 @@ let PROJECTS = [
 ];
 
 export default function ProjectDetails() {
-    let id = useLoaderData()
-    let project = PROJECTS.find((project) => project.id == id)
+    let id = parseInt(useLoaderData())
+    let project = PROJECTS.find((project) => project.id === id)
     return <div>Content is coming soon, these are just some placeholders: {project.content} </div>
     }
