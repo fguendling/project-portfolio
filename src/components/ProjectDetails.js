@@ -35,5 +35,12 @@ let PROJECTS = [
 export default function ProjectDetails() {
     let id = parseInt(useLoaderData())
     let project = PROJECTS.find((project) => project.id === id)
-    return <div>Some CSS is coming soon, I promise. Here is the description already: {project.content} </div>
+    return <div class='project-details-content'>
+      <h2>Project Details</h2> 
+      <br></br>
+      <br></br>
+      <p>
+      {project.content} 
+      </p>
+      </div>
     }

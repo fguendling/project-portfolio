@@ -1,0 +1,27 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (https://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.project-details-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.project-details-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.project-details-content p {
+    margin-bottom: 30px;
+    margin: 30px;
+}
+
