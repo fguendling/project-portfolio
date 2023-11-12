@@ -34,7 +34,7 @@ function Home() {
 
          </header>
 
-         <div data-aos="zoom-in" data-aos-offset="200">
+         <div data-aos="zoom-in" data-aos-offset="200" class="main-content-container">
 
          <h1>
             What I'm currently interested in.
@@ -43,7 +43,7 @@ function Home() {
 
          </div>
 
-         <div data-aos="zoom-in" data-aos-offset="400">
+         <div data-aos="zoom-in" data-aos-offset="400" class="main-content-container">
          <h1>
             What I have done in the past.
          </h1>

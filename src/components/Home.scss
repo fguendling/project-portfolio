@@ -34,6 +34,12 @@ footer {
   font-size: 0.75rem;
 }
 
+@media (max-width: 450px) {
+  .main-content-container {
+    display: none;
+  }
+}
+
 /* from Codepen */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
