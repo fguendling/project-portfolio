@@ -11,9 +11,7 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "src/App.js"
-      ]
+      "openFiles": ["src/App.js"]
     }
   },
   "portsAttributes": {
