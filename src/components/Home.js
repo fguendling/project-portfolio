@@ -1,4 +1,5 @@
 import "./Home.scss";
+import Chatbot from "./Chatbot.js";
 
 function Home() {
   return (
