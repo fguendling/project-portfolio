@@ -4,6 +4,7 @@ import Chatbot from "./Chatbot.js";
 function Home() {
   return (
     <div className="Home">
+      <Chatbot></Chatbot>
       <header className="Home-header">
         <img src="profile-pic.png" className="Home-logo" alt="logo" />
 
