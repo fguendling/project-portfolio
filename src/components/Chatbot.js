@@ -22,19 +22,23 @@ export default class Chatbot extends React.Component {
           </div>
         </div>
         <div className="chat-input">
-          <form>
+          <form onSubmit={this.submitChat}>
             <input
+              name="msg"
               type="text"
               id="chat-input"
               placeholder="Send a message..."
+              value={this.state.chatInput}
+              onChange={(e) => this.setChatInput(e.target.value)}
             />
-            <div
-              className="chat-submit"
+            <button
+              value="Submit"
+              type="submit"
+              class="chat-submit"
               id="chat-submit"
-              onClick={this.submitChat}
             >
-              <i className="material-icons">send</i>
-            </div>
+              <i class="material-icons">send</i>
+            </button>
           </form>
         </div>
       </div>
@@ -56,9 +60,16 @@ export default class Chatbot extends React.Component {
 
   state = {
     chatVisible: false,
+    chatInput: "",
     messages: [
       "Hello! Please note this Chatbox is work in progress in November 2023.",
     ],
+  };
+
+  setChatInput = (input) => {
+    this.setState(() => ({
+      chatInput: input,
+    }));
   };
 
   generate_message = (msg) => {
@@ -67,11 +78,19 @@ export default class Chatbot extends React.Component {
     }));
   };
 
-  submitChat = () => {
+  submitChat = (event) => {
     // To be investigated:
-    // There is a severe xss vulnerability in the chatbot, executes any script and html can be manipulated
-    let msg = "placeholder";
-    this.generate_message(msg);
+    // There is (was) a severe xss vulnerability in the (original jquery version of the) chatbot,
+    // executes any script and html can be manipulated
+
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const formJson = Object.fromEntries(formData.entries());
+
+    this.generate_message(formJson.msg);
+    this.setChatInput("");
   };
 
   toggleChat = () =>
