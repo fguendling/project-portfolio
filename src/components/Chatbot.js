@@ -8,9 +8,9 @@ export default class Chatbot extends React.Component {
         <div className="chat-box-header">
           ChatBot
           <span className="chat-box-toggle">
-            <i className="material-icons" onClick={this.toggleChat}>
+            <div className="material-icons" onClick={this.toggleChat}>
               close
-            </i>
+            </div>
           </span>
         </div>
         <div className="chat-box-body">
@@ -61,31 +61,17 @@ export default class Chatbot extends React.Component {
     ],
   };
 
-  generate_button_message = (msg, buttons) => {
-    console.log("todo");
-  };
-
   generate_message = (msg) => {
-    console.log("todo append something to the list", msg);
     this.setState((state) => ({
       messages: [...state.messages, msg],
     }));
   };
 
   submitChat = () => {
-    console.log("submitChat");
+    // To be investigated:
+    // There is a severe xss vulnerability in the chatbot, executes any script and html can be manipulated
     let msg = "placeholder";
     this.generate_message(msg);
-    let buttons = [
-      {
-        name: "Existing User",
-        value: "existing",
-      },
-      {
-        name: "New User",
-        value: "new",
-      },
-    ];
   };
 
   toggleChat = () =>
