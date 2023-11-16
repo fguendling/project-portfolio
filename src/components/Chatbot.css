@@ -7,7 +7,7 @@
   height: 100%;
 }
 #chat-circle {
-  position: fixed; /* was fixed */
+  position: fixed;
   z-index: 1;
   bottom: 50px;
   right: 50px;
@@ -113,19 +113,15 @@
   margin-bottom: 0;
 }
 #chat-input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
   color: #ccc;
 }
 #chat-input::-moz-placeholder {
-  /* Firefox 19+ */
   color: #ccc;
 }
 #chat-input:-ms-input-placeholder {
-  /* IE 10+ */
   color: #ccc;
 }
 #chat-input:-moz-placeholder {
-  /* Firefox 18- */
   color: #ccc;
 }
 .chat-submit {

@@ -16,9 +16,21 @@ export default class Chatbot extends React.Component {
         <div className="chat-box-body">
           <div className="chat-box-overlay"></div>
           <div className="chat-logs">
-            {messages.map((message, index) => (
-              <div key={index}>{message}</div>
-            ))}
+            {messages.map((message, index) =>
+              index % 2 === 0 ? (
+                <div className="chat-msg self">
+                  <div className="cm-msg-text" key={index}>
+                    {message}
+                  </div>
+                </div>
+              ) : (
+                <div className="chat-msg user">
+                  <div className="cm-msg-text" key={index}>
+                    {message}
+                  </div>
+                </div>
+              ),
+            )}
           </div>
         </div>
         <div className="chat-input">
@@ -61,9 +73,7 @@ export default class Chatbot extends React.Component {
   state = {
     chatVisible: false,
     chatInput: "",
-    messages: [
-      "Hello! Please note this Chatbox is work in progress in November 2023.",
-    ],
+    messages: ["Hello! Please note this Chatbot is work in progress."],
   };
 
   setChatInput = (input) => {
@@ -89,7 +99,13 @@ export default class Chatbot extends React.Component {
     const formData = new FormData(form);
     const formJson = Object.fromEntries(formData.entries());
 
+    if (formJson.msg === "") {
+      return;
+    }
     this.generate_message(formJson.msg);
+    setTimeout(() => {
+      this.generate_message("There is no backend connected currently.");
+    }, 1000);
     this.setChatInput("");
   };
 
