@@ -1,5 +1,8 @@
 import React from "react";
 import "./Chatbot.css";
+import CloseIcon from "@mui/icons-material/Close";
+import SendIcon from "@mui/icons-material/Send";
+import ChatIcon from "@mui/icons-material/Chat";
 
 export default class Chatbot extends React.Component {
   Chat = ({ show, messages }) => (
@@ -8,9 +11,7 @@ export default class Chatbot extends React.Component {
         <div className="chat-box-header">
           ChatBot
           <span className="chat-box-toggle">
-            <div className="material-icons" onClick={this.toggleChat}>
-              close
-            </div>
+            <CloseIcon onClick={this.toggleChat}></CloseIcon>
           </span>
         </div>
         <div className="chat-box-body">
@@ -49,7 +50,7 @@ export default class Chatbot extends React.Component {
               class="chat-submit"
               id="chat-submit"
             >
-              <i class="material-icons">send</i>
+              <SendIcon></SendIcon>
             </button>
           </form>
         </div>
@@ -65,7 +66,7 @@ export default class Chatbot extends React.Component {
         onClick={this.toggleChat}
       >
         <div id="chat-overlay"></div>
-        <i className="material-icons">Hi!</i>
+        <ChatIcon></ChatIcon>
       </div>
     </div>
   );

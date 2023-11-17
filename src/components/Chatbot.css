@@ -135,6 +135,7 @@
   color: #5a5eb9;
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 .chat-logs {
   padding: 15px;
