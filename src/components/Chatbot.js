@@ -16,7 +16,7 @@ export default class Chatbot extends React.Component {
         </div>
         <div className="chat-box-body">
           <div className="chat-box-overlay"></div>
-          <div className="chat-logs">
+          <div className="chat-logs" id="chat-logs">
             {messages.map((message, index) =>
               index % 2 === 0 ? (
                 <div className="chat-msg self">
@@ -87,6 +87,10 @@ export default class Chatbot extends React.Component {
     this.setState((state) => ({
       messages: [...state.messages, msg],
     }));
+    setTimeout(() => {
+      let chatLogs = document.getElementById("chat-logs");
+      chatLogs.scrollTop += 10000;
+    }, 1);
   };
 
   submitChat = (event) => {
