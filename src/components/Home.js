@@ -23,10 +23,6 @@ function Home() {
           <a href="https://www.credly.com/users/felix-gundling.5266ff70">
             <img src="credly.png" alt="logo" />
           </a>
-
-          <a href="https://www.credential.net/profile/felixgndling630115/wallet">
-            <img src="1650028743528.jfif" alt="logo" />
-          </a>
         </div>
       </header>
 
