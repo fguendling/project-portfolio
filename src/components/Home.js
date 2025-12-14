@@ -151,7 +151,7 @@ function Home() {
       </div>
 
       <br></br>
-      <footer>© 2023 Felix Gündling</footer>
+      <footer>© 2026 Felix Gündling</footer>
     </div>
   );
 }
