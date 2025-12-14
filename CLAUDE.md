@@ -54,7 +54,8 @@ The app uses React Router v6 with two main routes (src/index.js:9-21):
 
 **Chatbot Component** (src/components/Chatbot.js)
 - React class component with chat UI
-- Currently non-functional - displays "There is no backend connected currently"
+- Displays initial message "Hello! Please note this Chatbot is work in progress."
+- When user submits a message, responds with "There is no backend connected currently."
 - Has a known XSS vulnerability mentioned in code comments (lines 97-99)
 - Uses Material-UI icons for UI elements
 

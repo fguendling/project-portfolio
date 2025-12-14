@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm start`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`).
+Runs the app in the development mode. Opens at [http://localhost:3000](http://localhost:3000).
 
 ### `npm test`
 
@@ -16,17 +16,9 @@ Launches the test runner in the interactive watch mode. See the section about [r
 
 Builds the app for production to the `build` folder.
 
-### `npm install firebase`
-
-Is required in case of a new codespace.
-
 ### `npm install -g firebase-tools`
 
-Also necessary when a new codespace is used.
-
-### `firebase init hosting`
-
-Initialize Firebase hosting. Creates firebase.json which already available in the repository and in good shape. Should not be modified. Hence the command shall not be used.
+Required for Firebase CLI commands (deploy, etc.). Only needs to be run once in new environments.
 
 ### `firebase deploy --only hosting:felix-xyz`
 
