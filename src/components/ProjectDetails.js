@@ -51,6 +51,13 @@ let PROJECTS = [
     content:
       "We are introducing new cloud-based infrastructure, which is not limited to a single cloud provider. Instead, we deploy to different providers (e.g., DigitalOcean, SysEleven, Ionos, ...). The core of the infrastructure is based on Kubernetes. We are taking care of the deployments and the configuration of the Kubernetes clusters and are responsible for their availability. Furthermore, various other products are deployed to the environments, such as logging- and monitoring solutions (e.g.,: Grafana, Prometheus, Thanos, Loki, ...). We also take care of other software configuration, for protection of the existing services (e.g.: CloudFlare). The infrastructure gets declared with Hashicorp's Terraform (Infrastructure as Code) and is versioned in GitLab, from where it is also deployed automatically. We are making use of Helm charts to install add-ons into the Clusters.",
   },
+  {
+    id: 8,
+    title: "Automation with Ansible via self-hosted Docker Swarm Cluster",
+    industry: "Telecommunications industry",
+    content:
+      "This project focused on automating infrastructure and application deployments using Ansible in a telecommunications environment. The automation was orchestrated through a self-hosted Docker Swarm cluster, enabling scalable and reliable deployment workflows. Key responsibilities included designing and implementing Ansible playbooks, managing the Docker Swarm infrastructure, and ensuring high availability of the automation platform.",
+  },
 ];
 
 export default function ProjectDetails() {
