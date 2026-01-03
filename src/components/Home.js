@@ -59,7 +59,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#ff6b6b" }}>
-              <h2>Task: Automation with Ansible via self-hosted Docker Swarm Cluster</h2>
+              <h2>Automation with Ansible via self-hosted Docker Swarm Cluster</h2>
               <p>For a client in the telecommunications industry</p>
             </div>
           </div>
@@ -73,7 +73,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#e6e6fa" }}>
-              <h2>Task: Kubernetes Platform Engineering</h2>
+              <h2>Kubernetes Platform Engineering</h2>
               <p>For a software vendor</p>
             </div>
           </div>
@@ -87,7 +87,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#81d8d0" }}>
-              <h2>Task: Systems Development and Operation</h2>
+              <h2>Systems Development and Operation</h2>
               <p>For a client in the pharmaceutical industry</p>
             </div>
           </div>
@@ -101,7 +101,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#e4decd" }}>
-              <h2>Task: Cloud Foundation Design (GCP)</h2>
+              <h2>Cloud Foundation Design (GCP)</h2>
               <p>For a client in the energy industry</p>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#ffdab9" }}>
-              <h2>Task: Solution Design & Software Development</h2>
+              <h2>Solution Design & Software Development</h2>
               <p>For a client in the aerospace industry</p>
             </div>
           </div>
@@ -129,7 +129,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#7c677f" }}>
-              <h2>Task: AI methods evaluation and prototyping</h2>
+              <h2>AI methods evaluation and prototyping</h2>
               <p>For a client in the logistics industry</p>
             </div>
           </div>
@@ -143,7 +143,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#333333" }}>
-              <h2>Task: Consulting, database development</h2>
+              <h2>Consulting, database development</h2>
               <p>For a client in the banking industry</p>
             </div>
           </div>
@@ -157,7 +157,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#4b6777" }}>
-              <h2>Task: Database development</h2>
+              <h2>Database development</h2>
               <p>For a client in the banking industry (yet another one)</p>
             </div>
           </div>
