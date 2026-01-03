@@ -51,6 +51,20 @@ function Home() {
       Original Cards Design:
       https://codepen.io/aron-tw/pen/pLJqgE
       */}
+        <a href={`/details/8`}>
+          <div className="flip flip-vertical">
+            <div className="front" style={{ background: "#ff6b6b" }}>
+              <h2 id="project8" className="text-shadow">
+                Project 8
+              </h2>
+            </div>
+            <div className="back" style={{ background: "#ff6b6b" }}>
+              <h2>Task: Automation with Ansible via self-hosted Docker Swarm Cluster</h2>
+              <p>For a client in the telecommunications industry</p>
+            </div>
+          </div>
+        </a>
+
         <a href={`/details/7`}>
           <div className="flip flip-vertical">
             <div className="front" style={{ background: "#e6e6fa" }}>
