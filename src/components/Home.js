@@ -59,7 +59,7 @@ function Home() {
               </h2>
             </div>
             <div className="back" style={{ background: "#ff6b6b" }}>
-              <h2>Ansible automation via self-hosted Docker Swarm cluster</h2>
+              <h2>Ansible automation via self-hosted Docker Swarm</h2>
               <p>For a client in the telecommunications industry</p>
             </div>
           </div>
