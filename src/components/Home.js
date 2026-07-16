@@ -51,6 +51,20 @@ function Home() {
       Original Cards Design:
       https://codepen.io/aron-tw/pen/pLJqgE
       */}
+        <a href={`/details/9`}>
+          <div className="flip flip-vertical">
+            <div className="front" style={{ background: "#1a1a2e" }}>
+              <h2 id="project9" className="text-shadow">
+                Project 9
+              </h2>
+            </div>
+            <div className="back" style={{ background: "#1a1a2e" }}>
+              <h2>Kubernetes Platform Engineering</h2>
+              <p>For a client in the defense industry</p>
+            </div>
+          </div>
+        </a>
+
         <a href={`/details/8`}>
           <div className="flip flip-vertical">
             <div className="front" style={{ background: "#ff6b6b" }}>
