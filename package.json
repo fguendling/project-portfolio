@@ -15,7 +15,7 @@
     "openai": "^6.10.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.15.0",
+    "react-router-dom": "^6.30.6",
     "react-scripts": "^5.0.1",
     "sass": "^1.57.1",
     "scss": "^0.2.4",
